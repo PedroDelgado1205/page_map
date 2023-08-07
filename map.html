@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InvisionMap</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<!--Bruno-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+</head>
+<body id="full">
+    <section id="pantalla-secundaria">
+        <header>
+            <h1 >INVISIUAL MAP</h1>
+            <div class="circle"></div>
+        </header>
+        <div class="container">
+            <!--Bruno-->
+            <div id="map"></div>
+        </div>
+        <div class="buttons">
+            <button id="guardar">Guardar Obstaculo</button>
+        </div>
+    </section>
+    <div id="map"></div>
+    <script src="invisionMap.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="/page_map/script.js"></script>
+</body>
+</html>
